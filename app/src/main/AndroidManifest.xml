@@ -11,7 +11,9 @@
         android:theme="@style/AppTheme">
         <activity android:name=".Exp6Activity" />
         <activity android:name=".LifeCycleActivity" />
-        <activity android:name=".Exp2Activity" />
+        <activity
+            android:name=".Exp2Activity"
+            android:theme="@style/NoActionBar" />
         <activity android:name=".Exp3Activity" />
         <activity android:name=".NewActivity" />
         <activity android:name=".MainActivity">
