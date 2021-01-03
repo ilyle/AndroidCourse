@@ -2,6 +2,14 @@
     <string name="app_name">AndroidCourse</string>
 
     <string name="exp_2">实验二</string>
+    <string name="exp_3">实验三</string>
+    <string name="exp_4">实验四</string>
+    <string name="exp_5">实验五</string>
+    <string name="exp_6">实验六</string>
+    <string name="exp_7">实验七</string>
+    <string name="exp_8">实验八</string>
+    <string name="exp_9">实验九</string>
+    <string name="exp_10">实验十</string>
 
     <string name="login">登录</string>
 </resources>

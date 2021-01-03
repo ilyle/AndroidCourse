@@ -9,8 +9,6 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    private Button mBtnExp2;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,26 +18,31 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     private void initView() {
-        mBtnExp2 = findViewById(R.id.btn_2);
     }
 
     private void setListener() {
-        mBtnExp2.setOnClickListener(this);
     }
 
     @Override
     public void onClick(View view) {
         switch (view.getId()) {
-            case R.id.btn_2:
-                nav2Exp2();
-                break;
             default:
                 break;
         }
     }
 
-    private void nav2Exp2() {
+    public void nav2Exp2(View view) {
         Intent intent = new Intent(this, Exp2Activity.class);
+        startActivity(intent);
+    }
+
+    public void nav2Exp3(View view) {
+        Intent intent = new Intent(this, Exp3Activity.class);
+        startActivity(intent);
+    }
+
+    public void nav2Exp4(View view) {
+        Intent intent = new Intent(this, LifeCycleActivity.class);
         startActivity(intent);
     }
 }
