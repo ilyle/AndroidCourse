@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AndroidCourse</string>
+
+    <string name="exp_2">实验二</string>
+
+    <string name="login">登录</string>
+</resources>
