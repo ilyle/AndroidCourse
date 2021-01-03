@@ -45,4 +45,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Intent intent = new Intent(this, LifeCycleActivity.class);
         startActivity(intent);
     }
+
+    public void nav2Exp6(View view) {
+        Intent intent = new Intent(this, Exp6Activity.class);
+        startActivity(intent);
+    }
 }
