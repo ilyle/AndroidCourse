@@ -32,6 +32,7 @@
         android:id="@+id/btn_5"
         android:layout_width="match_parent"
         android:layout_height="48dp"
+        android:onClick="nav2Exp5"
         android:text="@string/exp_5" />
 
     <Button

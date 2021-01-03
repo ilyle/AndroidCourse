@@ -16,7 +16,7 @@ public class LifeCycleActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_life_cycle);
-        Log.i(TAG, "(1) onCreate()");
+        Log.i(TAG, "onCreate()");
 
         Button button = (Button) findViewById(R.id.btn_finish);
 
@@ -31,48 +31,48 @@ public class LifeCycleActivity extends AppCompatActivity {
     @Override
     protected void onRestoreInstanceState(@NonNull Bundle savedInstanceState) {
         super.onRestoreInstanceState(savedInstanceState);
-        Log.i(TAG, "(2) onRestoreInstanceState()");
+        Log.i(TAG, "onRestoreInstanceState()");
     }
 
     @Override
     protected void onStart() {
         super.onStart();
-        Log.i(TAG, "(3) onStart()");
+        Log.i(TAG, "onStart()");
     }
 
     @Override
     protected void onRestart() {
         super.onRestart();
-        Log.i(TAG, "(4) onRestart()");
+        Log.i(TAG, "onRestart()");
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-        Log.i(TAG, "(5) onResume()");
+        Log.i(TAG, "onResume()");
     }
 
     @Override
     protected void onSaveInstanceState(@NonNull Bundle outState) {
         super.onSaveInstanceState(outState);
-        Log.i(TAG, "(6) onSaveInstanceState()");
+        Log.i(TAG, "onSaveInstanceState()");
     }
 
     @Override
     protected void onPause() {
         super.onPause();
-        Log.i(TAG, "(7) onPause()");
+        Log.i(TAG, "onPause()");
     }
 
     @Override
     protected void onStop() {
         super.onStop();
-        Log.i(TAG, "(8) onStop()");
+        Log.i(TAG, "onStop()");
     }
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        Log.i(TAG, "(9) onDestroy()");
+        Log.i(TAG, "onDestroy()");
     }
 }
