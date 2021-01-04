@@ -64,5 +64,6 @@
         android:id="@+id/btn_10"
         android:layout_width="match_parent"
         android:layout_height="48dp"
+        android:onClick="nav2Exp7ContentResolver"
         android:text="@string/exp_10" />
 </LinearLayout>
