@@ -46,6 +46,7 @@
         android:id="@+id/btn_7"
         android:layout_width="match_parent"
         android:layout_height="48dp"
+        android:onClick="nav2Exp7"
         android:text="@string/exp_7" />
 
     <Button

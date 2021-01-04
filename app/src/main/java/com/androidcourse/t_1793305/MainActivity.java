@@ -7,6 +7,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.androidcourse.t_1793305.exp7.Exp7Activity;
+import com.androidcourse.t_1793305.exp7.TestContentResolverActivity;
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     @Override
@@ -53,6 +56,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     public void nav2Exp6(View view) {
         Intent intent = new Intent(this, Exp6Activity.class);
+        startActivity(intent);
+    }
+
+    public void nav2Exp7(View view) {
+        Intent intent = new Intent(this, Exp7Activity.class);
+        startActivity(intent);
+    }
+
+    public void nav2Exp7ContentResolver(View view) {
+        Intent intent = new Intent(this, TestContentResolverActivity.class);
         startActivity(intent);
     }
 }
